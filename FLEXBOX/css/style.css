@@ -4,6 +4,7 @@
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
+    gap: 10px;
 }
   .item {
     background-color: #4caf50;
@@ -12,3 +13,75 @@
     font-size: 18px;
     border-radius: 8px;
 }
+  .box1 {
+    background-color: #4c5eaf;
+    /*flex-grow: 1;*/
+    flex-basis: 20px;
+    order: 1; 
+    /*flex-shrink: 1;*/
+
+   
+}
+  .box2 {
+     background-color: #af534c;
+     /*flex-grow: 10;*/
+     flex-basis: 20px;
+     order: 2;
+     /*flex-shink : 1: */
+}
+  .box3 { 
+     background-color: #4caf50;
+    /*flex-grow: 1;*/
+     flex-basis: 20px;
+      order: 2;
+      /*flex-shrink: 1;*/
+  }
+
+  /*=========estilizando página de cadastro========*/
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  header { 
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+  }
+
+  section {
+    height: 2000px;
+    padding: 20px;
+  }
+
+  .fundo {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    z-index: 2;
+  }
+
+  .meio {
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    z-index: 3;
+  }
+
+       .frente {
+    background-color: crimson;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+    border-radius: 60px;
+  }
